@@ -1,0 +1,29 @@
+// variables and data type.
+//name:Bruce kimeu
+//REG:CT100/G/30761/26
+//DESCRIPTION: assign week 2 task 1
+
+#include <stdio.h>
+
+int main()
+{
+	float height;
+	float radius;
+	double pi=3.142;
+	float volume;
+	float surface_area;
+	
+	printf("input height:\t");
+	scanf("%f",&height);
+	
+	printf("input radius:\t");
+	scanf("%f",&radius);
+	
+	volume=pi*radius*radius*height;
+	surface_area=2*pi*radius*height;
+	
+	printf("find the volume:\t%f\n",volume);
+	printf("find the surface_area :\t%f \n",surface_area);
+	
+	return 0;
+}

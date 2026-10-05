@@ -1,0 +1,28 @@
+/* 
+NAME :Bruce Kimeu
+REG:CT100/G/30761/26
+ description :week 1 assign task 2
+date :9/19/2026
+
+*/
+
+#include<stdio.h>
+
+int main()
+{
+	float height ;//%f
+	double bankbalance ; //%.2lf
+	char phoneno [20];//%s
+	
+	printf("enter your height in centimeters\t");
+	scanf("%f",&height);
+	
+	printf("enter your bank balance in ksh \t");
+	scanf("%lf",&bankbalance);
+	
+	printf("enter your phone no \t");
+	scanf("%s",&phoneno);
+	
+	
+	return 0;
+}
